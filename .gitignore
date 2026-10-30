@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+server.log
+server-err.log
+
+# Electron & Desktop Build Artifacts
+dist/
+dist2/
+build-output/
+release-build/
+blackmyth-build/
+comic-build/
+medieval-build/
+release/
+
+# Mobile / Android Build Artifacts & Keys
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/app/.cxx/
+mobile/android/.cxx/
+mobile/android/build/
+mobile/android/local.properties
+mobile/*.apk
+*.apk
+*.aab
+*.keystore
+*.jks
+.cxx/
+
+# Runtime data & uploads
+storage/cancelled-jobs/*
+storage/completed-jobs/*
+storage/temp/*
+storage/uploads/*
+storage/logs/*
+storage/backups/*
+storage/notes-library/*
+storage/*.db
+storage/*.sqlite
+!storage/**/.gitkeep
+
+# Environment & Editor
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
